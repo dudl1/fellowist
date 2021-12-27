@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    background: #FCFCFC;
+}
+
+.containLeft {
+    display: flex;
+    background: #ffff;
+}
+
+.blockkBar {
+    display: grid;
+    grid-template-rows: 80px;
+    margin: 20% auto;
+}
+
+.topLogo, .bottomProfile {
+    margin: 0 35px;
+}
+
+.navPs > div {
+    display: flex;
+    margin: 25px 35px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.svgTr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgTr, .textTr {
+    width: 50px;
+    height: 50px;
+}
+
+.textTr {
+    display: flex;
+    margin: 10px;
+    width: 120px;
+    align-items: center;
+}
+
+.brRight {
+    width: 1px;
+    height: 100%;
+    background: #D6D6D6;
+}
+
+.bottomProfile {
+    display: flex;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.bottomProfile > div {
+    display: flex;
+}
+
+.containCenter {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.navPs:hover {
+    background-color: rgba(255, 191, 0, 0.4);
+    cursor: pointer;
+}
